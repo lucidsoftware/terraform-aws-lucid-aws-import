@@ -13,6 +13,8 @@ This module will create an IAM role that can be assumed by the bastion account. 
 
 ## Usage
 
+### Non-Org Level Imports
+
 ```hcl
 module "import_role" {
   source = "../modules/import-role"
@@ -20,6 +22,18 @@ module "import_role" {
   assume_role_account_id = "your_assume_role_account_id"
   external_id            = "lucid_generated_external_id"
   non_org_import         = true
+  policy_name            = "your_policy_name"
+  role_name              = "your_role_name"
+}
+```
+
+### Org Level Imports
+
+```hcl
+module "import_role" {
+  source = "../modules/import-role"
+
+  assume_role_account_id = "your_assume_role_account_id"
   policy_name            = "your_policy_name"
   role_name              = "your_role_name"
 }
