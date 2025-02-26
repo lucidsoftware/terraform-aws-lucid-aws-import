@@ -2,7 +2,7 @@
 
 This repository contains Terraform modules to set up the necessary IAM roles and policies for Lucid AWS imports. These modules include:
 
-- **Org Read Delegation Module**: Sets up a bastion account and delegates read access to the organization. Optionally creates the bastion account if no account ID is provided.
+- **Org Read Delegation Module**: Sets up a bastion account (optionally) and delegates read access to the organization
 - **Bastion Role Module**: Sets up an IAM role in the bastion account to assume roles in member accounts for imports.
 - **Import Role Module**: Sets up an IAM role in any AWS account for Lucid to perform imports.
 
