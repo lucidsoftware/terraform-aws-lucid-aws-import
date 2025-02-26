@@ -5,7 +5,7 @@ This module should be set up in any AWS account you'd like Lucid to import.
 
 ## For Non-Org Level Imports
 
-This module will create an IAM role that can be assumed by Lucid's proxy AWS import account. It will create the IAM policy required for Lucid AWS imports and attach it to the role. The Lucid's AWS import proxy account can then assume the role in this member account and do Lucid AWS imports.
+This module will create an IAM role that can be assumed by Lucid's proxy AWS import account. It will create the IAM policy required for Lucid AWS imports and attach it to the role. Lucid's AWS import proxy account can then assume the role in this member account and do Lucid AWS imports.
 
 ## For Org Level Imports
 
