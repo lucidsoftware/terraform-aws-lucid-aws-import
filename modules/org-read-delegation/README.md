@@ -5,7 +5,7 @@ This module should be set up in the management/root account in the organization.
 
 This module will create a bastion account with the provided account email and account name if no account id is provided. If an account id is provided, we will use that account as the bastion account.
 
-It will then delegate administrator access to the bastion account.
+It will then delegate administrator access to the bastion account. This account will receive organization-level permissions to scan your organization structure and configure permissions for member accounts.
 
 ## Usage
 
