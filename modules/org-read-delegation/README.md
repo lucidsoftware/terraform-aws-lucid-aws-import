@@ -1,7 +1,8 @@
 # Lucid AWS Import Org Read Delegation Module
 
+This module is only required for Org Level Import.
 
-This module should be set up in the management/root account in the organization.
+This module should be set up in the management/root account in the organization. 
 
 This module will create a bastion account with the provided account email and account name if no account id is provided. If an account id is provided, we will use that account as the bastion account.
 

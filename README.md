@@ -6,6 +6,8 @@ This repository contains Terraform modules to set up the necessary IAM roles and
 - **Bastion Role Module**: Sets up an IAM role in the bastion account to assume roles in member accounts for imports.
 - **Import Role Module**: Sets up an IAM role in any AWS account for Lucid to perform imports.
 
+For Org Level Import, all 3 modules are required. For Non-Org Level Import, only **Import Role Module** is required.
+
 ## Modules
 
 ### Org Read Delegation Module

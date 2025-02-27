@@ -1,5 +1,6 @@
 # Lucid AWS Import Bastion Role Module
 
+This module is only required for Org Level Import.
 
 This module should be set up in the bastion account (or the management/root account if you choose to not have a separate bastion account).
 
