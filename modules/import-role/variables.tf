@@ -19,11 +19,11 @@ variable "non_org_import" {
 variable "policy_name" {
   description = "The name of the policy to give permission to Lucid to do imports"
   type        = string
-  default     = "lucid_import"
+  default     = "lucid-import-account-policy"
 }
 
 variable "role_name" {
   description = "The name of the member account role"
   type        = string
-  default     = "lucid_import"
+  default     = "lucid-import-account-role"
 }

@@ -1,7 +1,7 @@
 variable "bastion_role_name" {
   description = "The name of the bastion role"
   type        = string
-  default     = "lucid_bastion_import"
+  default     = "lucid-import-bastion-role"
 }
 
 variable "external_id" {
@@ -13,11 +13,11 @@ variable "external_id" {
 variable "member_account_role_name" {
   description = "The name of the role in the member account that the bastion role will assume to do imports"
   type        = string
-  default     = "lucid_import"
+  default     = "lucid-import-account-role"
 }
 
 variable "role_policy_name" {
   description = "The name of the policy for assuming cross role access and organizational read permissions (attached to the bastion role). Used for Lucid AWS imports"
   type        = string
-  default     = "lucid_bastion_import"
+  default     = "lucid-import-bastion-policy"
 }
