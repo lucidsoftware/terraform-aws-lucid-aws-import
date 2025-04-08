@@ -26,5 +26,5 @@ resource "aws_iam_role" "import_role" {
 
 resource "aws_iam_role_policy_attachment" "read_only_policy_attachment" {
   role       = aws_iam_role.import_role.name
-  policy_arn = "arn:aws:iam::aws:policy/ReadOnlyAccess"
+  policy_arn = "arn:${data.aws_partition.current.partition}:iam::aws:policy/ReadOnlyAccess"
 }
