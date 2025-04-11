@@ -9,7 +9,7 @@ This module will create a bastion account with the provided account email and ac
 It will then delegate administrator access to the bastion account. This account will receive organization-level permissions to scan your organization structure and configure permissions for member accounts.
 
 ### Note
-AWS Organization allows you to have only one resource policy per organization. If you already have an existing resource policy in your organization, this module will fail to deploy as it attemptes to create a new `aws_organizations_resource_policy`. 
+AWS Organizations allow you to have only one resource policy per organization. If you already have an existing resource policy in your organization, this module will fail to deploy as it attemptes to create a new `aws_organizations_resource_policy`. 
 
 You'd need to manually modify or extend the existing policy. Add the [actions](main.tf#L18) and [principals](main.tf#L29) to your policy.
 
