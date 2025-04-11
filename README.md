@@ -14,19 +14,19 @@ For Org Level Import, all 3 modules are required. For Non-Org Level Import, only
 
 This module sets up a bastion account and delegates read access to the organization, either by creating a new account or using an existing one.
 
-[Read more](modules/org-read-delegation/README.md)
+[Read more](https://github.com/lucidsoftware/terraform-aws-lucid-aws-import/tree/main/modules/org-read-delegation)
 
 ### Bastion Role Module
 
 This module creates an IAM role in the bastion account that allows Lucid's AWS import proxy account to assume it and perform imports in member accounts.
 
-[Read more](modules/bastion-role/README.md)
+[Read more](https://github.com/lucidsoftware/terraform-aws-lucid-aws-import/tree/main/modules/bastion-role)
 
 ### Import Role Module
 
 This module creates an IAM role that can be assumed by Lucid's proxy AWS import account or the bastion account for performing imports.
 
-[Read more](modules/import-role/README.md)
+[Read more](https://github.com/lucidsoftware/terraform-aws-lucid-aws-import/tree/main/modules/import-role)
 
 ## Requirements
 
