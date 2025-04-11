@@ -11,9 +11,9 @@ It will then delegate administrator access to the bastion account. This account 
 ### Note
 AWS Organization allows you to have only one resource policy per organization. If you already have an existing resource policy in your organization, this module will fail to deploy as it attemptes to create a new `aws_organizations_resource_policy`. 
 
-You'd need to manually modify or extend the existing policy. Add the [actions](modules/org-read-delegation/main.tf#L18) and [principals](modules/org-read-delegation/main.tf#L29) to your policy.
+You'd need to manually modify or extend the existing policy. Add the [actions](main.tf#L18) and [principals](main.tf#L29) to your policy.
 
-For creating a new bastion account if you don't have one already, follow the [implementation](modules/org-read-delegation/main.tf#L7) in the module.
+For creating a new bastion account if you don't have one already, follow the [implementation](main.tf#L7) in the module.
 
 ## Usage
 
