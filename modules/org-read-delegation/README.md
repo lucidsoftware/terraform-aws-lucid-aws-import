@@ -58,6 +58,4 @@ module "org_read_delegation" {
 
 | Name | Description |
 |------|-------------|
-| <a name="output_bastion_account_id"></a> [bastion\_account\_id](#output\_bastion\_account\_id) | The ID of the bastion account |
-| <a name="output_bastion_account_email"></a> [bastion\_account\_email](#output\_bastion\_account\_email) | The email of the bastion account |
-| <a name="output_bastion_account_name"></a> [bastion\_account\_name](#output\_bastion\_account\_name) | The name of the bastion account |
+| <a name="output_bastion_account_id"></a> [bastion\_account\_id](#output\_bastion\_account\_id) | The ID of the bastion account (used to set up role assumption permissions) |

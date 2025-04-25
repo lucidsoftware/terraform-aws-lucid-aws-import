@@ -37,4 +37,4 @@ This module creates an IAM role that can be assumed by Lucid's proxy AWS import 
 
 ## License
 
-This project is licensed under the Apache License, Version 2.0. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the Apache License, Version 2.0. See the [LICENSE](https://github.com/lucidsoftware/terraform-aws-lucid-aws-import/blob/main/LICENSE) file for details.

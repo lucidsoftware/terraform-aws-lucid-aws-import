@@ -41,6 +41,4 @@ module "bastion_role" {
 
 | Name | Description |
 |------|-------------|
-| <a name="output_bastion_role_arn"></a> [bastion\_role\_arn](#output\_bastion\_role\_arn) | The ARN of the bastion role |
-| <a name="output_bastion_role_name"></a> [bastion\_role\_name](#output\_bastion\_role\_name) | The name of the bastion role |
-| <a name="output_bastion_role_policy_arn"></a> [bastion\_role\_policy\_arn](#output\_bastion\_role\_policy\_arn) | The ARN of the bastion role policy |
+| <a name="output_bastion_role"></a> [bastion\_role](#output\_bastion\_role) | The bastion role to allow read organization access and assume member account import roles |
